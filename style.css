@@ -134,7 +134,7 @@ footer{
     border-radius: 30px;
 }
 
-@media(max-width:320px){
+@media(max-width:430px){
     .cabecalho{
         flex-direction: column;
         padding: 40px;
@@ -143,6 +143,19 @@ footer{
     .navegação{
         display: flex;
         flex-direction: column;
+        gap: 20px;
+    }
+    
+}
+
+@media(max-width:720px){
+    .cabecalho{
+        flex-direction: column;
+        padding: 40px;
+        gap: 30px;
+    }
+    .navegação{
+        display: flex;
         gap: 20px;
     }
     
