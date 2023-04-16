@@ -5,13 +5,18 @@
 }
 
 .cabecalho{
-    background-color: black;
+    background-color: #101010;
     color: white;
     padding: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.cabecalho.shadow {
+    background: #161919;
+    transition: 0.4s all linear;
 }
 .itens{
     text-decoration: none;
@@ -21,14 +26,14 @@
 }
 
 .itens:hover{
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #c11313;
 }
 
 .container{
     display: flex;
     justify-content: center;
     min-height: 100vh;
-    background-color: #6100AD;
+    background-color: #161919;
     flex-direction: column;
     
 }
@@ -113,7 +118,7 @@ img{
 }
 
 footer{
-    background-color: black;
+    background-color: #101010;
     color: white;
     font-size: 3rem;
     text-align: center;
@@ -125,7 +130,7 @@ footer{
 }
 
 ::-webkit-scrollbar-track{
-    background-color: #ff0049;
+    background-color: #c11313;
     border-radius: 30px;
 }
 
